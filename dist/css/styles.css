@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box; }
+
+body {
+  background-color: #ca8544;
+  color: #302a31; }
+
+.header, .header-con {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.header {
+  height: 80vh; }
+  .header-con {
+    flex-direction: row-reverse; }
+    .header-con-text {
+      font-size: 36px;
+      margin-bottom: 24px; }
+    .header-con-p {
+      max-width: 450px;
+      width: 100%;
+      text-align: center; }
+  @media only screen and (max-width: 480px) {
+    .header {
+      font-size: larger;
+      font-style: oblique; } }

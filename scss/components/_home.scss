@@ -1,0 +1,24 @@
+.header {
+    @extend %center;
+    height: 80vh;
+
+    &-con {
+        @extend %center;
+        flex-direction: row-reverse;
+
+        &-text{
+       font-size: $lg;
+       margin-bottom: 24px;
+        }
+
+        &-p{
+        max-width: 450px;
+        width: 100%;
+        text-align: center;
+        }
+    }
+    @include mobile {
+        font-size: larger;
+        font-style: oblique;
+    }
+}
