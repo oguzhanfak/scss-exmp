@@ -1,1 +1,3 @@
-# scss-exmp
+file structure
+extends 
+mixins
